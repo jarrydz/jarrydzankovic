@@ -16,7 +16,6 @@ dist
 *.pem
 .env*.local
 next-env.d.ts
-vercel.json
 
 # debug
 npm-debug.log*
