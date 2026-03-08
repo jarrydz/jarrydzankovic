@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ink: #1a1a1a;
+  --color-ink-muted: #4a4a4a;
+  --color-paper: #ffffff;
+  --column-width: 34rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .motion-reduce\:animate-none {
+    animation: none !important;
+  }
+}
+
+body {
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+  font-family: var(--font-merriweather), Georgia, serif;
+}
+
+/* Site title: force Inter (sans-serif) so it doesn’t inherit body serif */
+main header h1 {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Subtle focus for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-ink-muted);
+  outline-offset: 4px;
+}
