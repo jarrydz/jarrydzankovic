@@ -2,15 +2,11 @@
   "name": "jarrydzankovic",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=20"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "invert-portrait": "node scripts/invert-portrait.mjs"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^15.5.12",
@@ -25,7 +21,6 @@
     "eslint": "^9.39.4",
     "eslint-config-next": "^15.5.12",
     "postcss": "^8.4.0",
-    "sharp": "^0.33.5",
     "tailwindcss": "^3.4.0",
     "typescript": "^5.0.0"
   }
