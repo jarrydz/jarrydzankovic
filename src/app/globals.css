@@ -28,6 +28,51 @@ body {
   font-family: var(--font-merriweather), Georgia, serif;
 }
 
+/* Line-level page build: hero rows stagger in quickly on load. Shift is in
+   em so it scales with each line's own type size. */
+@keyframes cover-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.18em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cover-line,
+.cover-photo {
+  animation: cover-in 0.32s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.cover-line-aina {
+  animation-delay: 0.05s;
+}
+
+.cover-line-tive {
+  animation-delay: 0.13s;
+}
+
+.cover-photo {
+  animation-delay: 0.19s;
+}
+
+.cover-line-product {
+  animation-delay: 0.21s;
+}
+
+.cover-line-builder {
+  animation-delay: 0.29s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cover-line,
+  .cover-photo {
+    animation: none;
+  }
+}
+
 /* Shared page column: the below-fold content uses the exact same width as
    the cover hero, and sizes its type in cqw so text scales with the column
    instead of wrapping. */

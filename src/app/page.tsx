@@ -10,7 +10,7 @@ export default function Home() {
       <main className="content-col relative z-10 mx-auto py-[clamp(3rem,10vw,6rem)]">
         <article className="flex flex-col gap-[clamp(2.5rem,8vw,5rem)]">
           <header className="space-y-4 font-title">
-            <ScrollReveal delay={100}>
+            <ScrollReveal delay={0}>
               <h2 className="content-name font-title font-semibold tracking-tight text-[var(--color-ink)]">
                 Jarryd Zankovic
               </h2>
@@ -18,7 +18,7 @@ export default function Home() {
           </header>
 
           <div className="space-y-[clamp(2rem,5vw,3.5rem)]">
-            <ScrollReveal delay={150}>
+            <ScrollReveal delay={80}>
               <p className="content-copy font-title font-semibold text-[var(--color-ink)]">
                 Today I&rsquo;m SVP of Product at{' '}
                 <a
@@ -35,17 +35,19 @@ export default function Home() {
                 fulfilment across stores, warehouses and supply chains.
               </p>
             </ScrollReveal>
-            <ScrollReveal delay={230}>
-              <ul className="content-links flex flex-col gap-3 font-title font-semibold text-[var(--color-ink)]">
-                <li>
+            <ul className="content-links flex flex-col gap-3 font-title font-semibold text-[var(--color-ink)]">
+              <li>
+                <ScrollReveal delay={160}>
                   <a
                     href="mailto:hello@jarrydzankovic.com"
                     className="underline transition-colors hover:text-neutral-600 hover:italic"
                   >
                     hello@jarrydzankovic.com
                   </a>
-                </li>
-                <li>
+                </ScrollReveal>
+              </li>
+              <li>
+                <ScrollReveal delay={220}>
                   <a
                     href="https://www.linkedin.com/in/jarryd-zankovic/"
                     target="_blank"
@@ -54,8 +56,10 @@ export default function Home() {
                   >
                     https://www.linkedin.com/in/jarryd-zankovic/
                   </a>
-                </li>
-                <li>
+                </ScrollReveal>
+              </li>
+              <li>
+                <ScrollReveal delay={280}>
                   <a
                     href="https://github.com/jarrydz"
                     target="_blank"
@@ -64,8 +68,10 @@ export default function Home() {
                   >
                     https://github.com/jarrydz
                   </a>
-                </li>
-                <li>
+                </ScrollReveal>
+              </li>
+              <li>
+                <ScrollReveal delay={340}>
                   <a
                     href="https://jarrydz.github.io/johnandmario/"
                     target="_blank"
@@ -74,9 +80,9 @@ export default function Home() {
                   >
                     https://jarrydz.github.io/johnandmario/
                   </a>
-                </li>
-              </ul>
-            </ScrollReveal>
+                </ScrollReveal>
+              </li>
+            </ul>
           </div>
         </article>
       </main>
