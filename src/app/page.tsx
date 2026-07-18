@@ -36,7 +36,7 @@ export default function Home() {
               </p>
             </ScrollReveal>
             <ScrollReveal delay={230}>
-              <ul className="flex flex-col gap-3 font-body text-lg font-semibold leading-relaxed text-[var(--color-ink)] sm:text-xl sm:leading-relaxed">
+              <ul className="flex flex-col gap-3 break-all font-body text-lg font-semibold leading-relaxed text-[var(--color-ink)] sm:text-xl sm:leading-relaxed">
                 <li>
                   <a
                     href="mailto:hello@jarrydzankovic.com"
@@ -52,7 +52,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="underline transition-colors hover:text-neutral-600 hover:italic"
                   >
-                    LinkedIn
+                    https://www.linkedin.com/in/jarryd-zankovic/
                   </a>
                 </li>
                 <li>
@@ -62,7 +62,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="underline transition-colors hover:text-neutral-600 hover:italic"
                   >
-                    GitHub
+                    https://github.com/jarrydz
                   </a>
                 </li>
                 <li>
@@ -72,7 +72,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="underline transition-colors hover:text-neutral-600 hover:italic"
                   >
-                    John &amp; Mario
+                    https://jarrydz.github.io/johnandmario/
                   </a>
                 </li>
               </ul>

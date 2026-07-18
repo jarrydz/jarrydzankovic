@@ -11,10 +11,10 @@ export default function CoverHero() {
           <span className="cover-line cover-line-tive">TIVE</span>
           <span className="cover-photo">
             <Image
-              src="/portrait-photo.jpg"
+              src="/portrait-sketch.png"
               alt=""
-              width={814}
-              height={814}
+              width={1024}
+              height={1024}
               priority
             />
           </span>
