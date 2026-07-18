@@ -36,24 +36,46 @@ export default function Home() {
               </p>
             </ScrollReveal>
             <ScrollReveal delay={230}>
-              <p className="font-body text-lg font-semibold leading-relaxed text-[var(--color-ink)] sm:text-xl sm:leading-relaxed">
-                <a
-                  href="https://www.linkedin.com/in/jarryd-zankovic/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline transition-colors hover:text-neutral-600 hover:italic"
-                >
-                  Connect professionally
-                </a>
-                {' or '}
-                <a
-                  href="mailto:hello@jarrydzankovic.com?subject=Hello%20from%20jarrydzankovic.com"
-                  className="underline transition-colors hover:text-neutral-600 hover:italic"
-                >
-                  say hello
-                </a>
-                .
-              </p>
+              <ul className="flex flex-col gap-3 font-body text-lg font-semibold leading-relaxed text-[var(--color-ink)] sm:text-xl sm:leading-relaxed">
+                <li>
+                  <a
+                    href="mailto:hello@jarrydzankovic.com"
+                    className="underline transition-colors hover:text-neutral-600 hover:italic"
+                  >
+                    hello@jarrydzankovic.com
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/jarryd-zankovic/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline transition-colors hover:text-neutral-600 hover:italic"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/jarrydz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline transition-colors hover:text-neutral-600 hover:italic"
+                  >
+                    GitHub
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://jarrydz.github.io/johnandmario/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline transition-colors hover:text-neutral-600 hover:italic"
+                  >
+                    John &amp; Mario
+                  </a>
+                </li>
+              </ul>
             </ScrollReveal>
           </div>
         </article>
