@@ -4,8 +4,11 @@ export default function CoverHero() {
   return (
     <section className="relative z-10 flex min-h-svh items-center justify-center bg-[var(--color-paper)]">
       <h1 className="cover-hero" aria-label="AI Native Product Builder">
+        <span className="cover-line cover-line-aina" aria-hidden="true">
+          AI-NA
+        </span>
         <span className="cover-row" aria-hidden="true">
-          <span className="cover-line cover-line-ai">AI</span>
+          <span className="cover-line cover-line-tive">TIVE</span>
           <span className="cover-photo">
             <Image
               src="/portrait-photo.jpg"
@@ -15,9 +18,6 @@ export default function CoverHero() {
               priority
             />
           </span>
-        </span>
-        <span className="cover-line cover-line-native" aria-hidden="true">
-          NATIVE
         </span>
         <span className="cover-line cover-line-product" aria-hidden="true">
           PRODUCT
