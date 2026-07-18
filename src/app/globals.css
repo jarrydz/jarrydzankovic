@@ -28,6 +28,33 @@ body {
   font-family: var(--font-merriweather), Georgia, serif;
 }
 
+/* Shared page column: the below-fold content uses the exact same width as
+   the cover hero, and sizes its type in cqw so text scales with the column
+   instead of wrapping. */
+.content-col {
+  container-type: inline-size;
+  width: min(88vw, 64svh);
+}
+
+.content-name {
+  font-size: 9cqw;
+}
+
+.content-copy {
+  font-size: 4.8cqw;
+  line-height: 1.65;
+}
+
+.content-links {
+  /* Sized so the longest URL fits one line; tuned from in-browser measurement. */
+  font-size: 4.2cqw;
+  line-height: 1.5;
+}
+
+.content-links a {
+  white-space: nowrap;
+}
+
 /* Ogilvy-on-Advertising cover hero. The block is sized against both viewport
    axes so the whole cover always fits on screen; type is sized in cqw so each
    line fills the block edge-to-edge at any window size. */

@@ -7,11 +7,11 @@ export default function Home() {
     <>
       <BackgroundNodes />
       <CoverHero />
-      <main className="relative z-10 mx-auto max-w-[var(--column-width)] px-[clamp(1.5rem,5vw,4rem)] py-[clamp(3rem,10vw,6rem)]">
+      <main className="content-col relative z-10 mx-auto py-[clamp(3rem,10vw,6rem)]">
         <article className="flex flex-col gap-[clamp(2.5rem,8vw,5rem)]">
           <header className="space-y-4 font-title">
             <ScrollReveal delay={100}>
-              <h2 className="font-title text-4xl font-semibold tracking-tight text-[var(--color-ink)] sm:text-5xl">
+              <h2 className="content-name font-title font-semibold tracking-tight text-[var(--color-ink)]">
                 Jarryd Zankovic
               </h2>
             </ScrollReveal>
@@ -19,7 +19,7 @@ export default function Home() {
 
           <div className="space-y-[clamp(2rem,5vw,3.5rem)]">
             <ScrollReveal delay={150}>
-              <p className="font-title text-xl font-semibold leading-relaxed text-[var(--color-ink)] sm:text-2xl sm:leading-relaxed">
+              <p className="content-copy font-title font-semibold text-[var(--color-ink)]">
                 Today I&rsquo;m SVP of Product at{' '}
                 <a
                   href="https://fluentcommerce.com/"
@@ -36,7 +36,7 @@ export default function Home() {
               </p>
             </ScrollReveal>
             <ScrollReveal delay={230}>
-              <ul className="flex flex-col gap-3 break-all font-title text-xl font-semibold leading-relaxed text-[var(--color-ink)] sm:text-2xl sm:leading-relaxed">
+              <ul className="content-links flex flex-col gap-3 font-title font-semibold text-[var(--color-ink)]">
                 <li>
                   <a
                     href="mailto:hello@jarrydzankovic.com"
