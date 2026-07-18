@@ -78,7 +78,7 @@ body {
    instead of wrapping. */
 .content-col {
   container-type: inline-size;
-  width: min(88vw, 64svh);
+  width: min(88vw, 55svh);
 }
 
 .content-name {
@@ -108,7 +108,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2cqw;
-  width: min(88vw, 64svh);
+  /* 55svh (not 64) leaves headroom for Anton's ink overflowing its 0.82
+     line boxes, so cap tops never touch the viewport edge. */
+  width: min(88vw, 55svh);
 }
 
 .cover-line {

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function CoverHero() {
   return (
-    <section className="relative z-10 flex min-h-svh items-center justify-center bg-[var(--color-paper)]">
+    <section className="relative z-10 flex min-h-svh items-center justify-center bg-[var(--color-paper)] py-[6svh]">
       <h1 className="cover-hero" aria-label="AI Native Product Builder">
         <span className="cover-line cover-line-aina" aria-hidden="true">
           AI-NA
