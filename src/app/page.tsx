@@ -30,7 +30,10 @@ export default function Home() {
                   Fluent Commerce
                 </a>
                 , leading product management, design, emerging tech &amp;
-                enablement. I build the products behind modern commerce and
+                enablement.
+                <br />
+                <br />
+                I build the products behind modern commerce and
                 retail for the world&rsquo;s largest brands. Connecting
                 inventory, orders and fulfilment across stores, warehouses and
                 supply chains.
