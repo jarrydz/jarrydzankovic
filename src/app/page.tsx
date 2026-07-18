@@ -30,9 +30,10 @@ export default function Home() {
                   Fluent Commerce
                 </a>
                 , leading product management, design, emerging tech &amp;
-                enablement. We build the systems behind modern retail for the
-                world&rsquo;s largest brands, connecting inventory, orders and
-                fulfilment across stores, warehouses and supply chains.
+                enablement. I build the products behind modern commerce and
+                retail for the world&rsquo;s largest brands. Connecting
+                inventory, orders and fulfilment across stores, warehouses and
+                supply chains.
               </p>
             </ScrollReveal>
             <ul className="content-links flex flex-col gap-3 font-title font-semibold text-[var(--color-ink)]">
