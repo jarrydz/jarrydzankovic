@@ -25,7 +25,7 @@ export default function Home() {
                   href="https://fluentcommerce.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline transition-colors hover:text-neutral-600 hover:italic"
+                  className="underline transition-colors hover:text-[#ff5000] hover:italic"
                 >
                   Fluent Commerce
                 </a>
@@ -40,7 +40,7 @@ export default function Home() {
                 <ScrollReveal delay={160}>
                   <a
                     href="mailto:hello@jarrydzankovic.com"
-                    className="underline transition-colors hover:text-neutral-600 hover:italic"
+                    className="underline transition-colors hover:text-[#ff5000] hover:italic"
                   >
                     hello@jarrydzankovic.com
                   </a>
@@ -52,7 +52,7 @@ export default function Home() {
                     href="https://www.linkedin.com/in/jarryd-zankovic/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline transition-colors hover:text-neutral-600 hover:italic"
+                    className="underline transition-colors hover:text-[#ff5000] hover:italic"
                   >
                     https://www.linkedin.com/in/jarryd-zankovic/
                   </a>
@@ -64,7 +64,7 @@ export default function Home() {
                     href="https://github.com/jarrydz"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline transition-colors hover:text-neutral-600 hover:italic"
+                    className="underline transition-colors hover:text-[#ff5000] hover:italic"
                   >
                     https://github.com/jarrydz
                   </a>
@@ -76,7 +76,7 @@ export default function Home() {
                     href="https://jarrydz.github.io/johnandmario/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="underline transition-colors hover:text-neutral-600 hover:italic"
+                    className="underline transition-colors hover:text-[#ff5000] hover:italic"
                   >
                     https://jarrydz.github.io/johnandmario/
                   </a>

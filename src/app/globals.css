@@ -118,6 +118,9 @@ body {
   white-space: nowrap;
   font-family: var(--font-anton), Impact, 'Arial Narrow', sans-serif;
   font-weight: 400;
+  /* Trim each line box to the ink (cap top -> baseline) so the flex gap IS
+     the visual gap, identical between every pair of rows at any size. */
+  text-box: trim-both cap alphabetic;
   line-height: 0.82;
   letter-spacing: -0.015em;
   color: #111;
