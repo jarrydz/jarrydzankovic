@@ -11,7 +11,7 @@ export default function Home() {
         <article className="flex flex-col gap-[clamp(2.5rem,8vw,5rem)]">
           <header className="space-y-4 font-title">
             <ScrollReveal delay={100}>
-              <h2 className="font-title text-3xl font-semibold tracking-tight text-[var(--color-ink)] sm:text-4xl">
+              <h2 className="font-title text-4xl font-semibold tracking-tight text-[var(--color-ink)] sm:text-5xl">
                 Jarryd Zankovic
               </h2>
             </ScrollReveal>
@@ -19,7 +19,7 @@ export default function Home() {
 
           <div className="space-y-[clamp(2rem,5vw,3.5rem)]">
             <ScrollReveal delay={150}>
-              <p className="font-body text-lg font-semibold leading-relaxed text-[var(--color-ink)] sm:text-xl sm:leading-relaxed">
+              <p className="font-title text-xl font-semibold leading-relaxed text-[var(--color-ink)] sm:text-2xl sm:leading-relaxed">
                 Today I&rsquo;m SVP of Product at{' '}
                 <a
                   href="https://fluentcommerce.com/"
@@ -36,7 +36,7 @@ export default function Home() {
               </p>
             </ScrollReveal>
             <ScrollReveal delay={230}>
-              <ul className="flex flex-col gap-3 break-all font-body text-lg font-semibold leading-relaxed text-[var(--color-ink)] sm:text-xl sm:leading-relaxed">
+              <ul className="flex flex-col gap-3 break-all font-title text-xl font-semibold leading-relaxed text-[var(--color-ink)] sm:text-2xl sm:leading-relaxed">
                 <li>
                   <a
                     href="mailto:hello@jarrydzankovic.com"
