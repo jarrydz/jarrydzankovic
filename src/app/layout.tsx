@@ -1,6 +1,13 @@
 import type { Metadata } from 'next'
-import { Inter, Merriweather } from 'next/font/google'
+import { Anton, Inter, Merriweather } from 'next/font/google'
 import './globals.css'
+
+const anton = Anton({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-anton',
+  display: 'swap',
+})
 
 const inter = Inter({
   weight: ['600'],
@@ -30,7 +37,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${merriweather.variable}`}
+      className={`${anton.variable} ${inter.variable} ${merriweather.variable}`}
       suppressHydrationWarning
     >
       <body className="min-h-screen antialiased">

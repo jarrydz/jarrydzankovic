@@ -28,6 +28,64 @@ body {
   font-family: var(--font-merriweather), Georgia, serif;
 }
 
+/* Ogilvy-on-Advertising cover hero. The block is sized against both viewport
+   axes so the whole cover always fits on screen; type is sized in cqw so each
+   line fills the block edge-to-edge at any window size. */
+.cover-hero {
+  container-type: inline-size;
+  display: block;
+  width: min(88vw, 64svh);
+}
+
+.cover-line {
+  display: block;
+  font-family: var(--font-anton), Impact, 'Arial Narrow', sans-serif;
+  font-weight: 400;
+  line-height: 0.82;
+  letter-spacing: -0.015em;
+  color: #111;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.cover-row {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Font sizes are 100 / measured-em-width of each word in Anton at
+   -0.015em tracking, so every line runs flush to both block edges. */
+.cover-line-ai {
+  font-size: 55cqw;
+}
+
+.cover-line-native {
+  font-size: 41.8cqw;
+}
+
+.cover-line-product {
+  font-size: 31.5cqw;
+}
+
+.cover-line-builder {
+  font-size: 34.9cqw;
+}
+
+.cover-photo {
+  position: relative;
+  flex: 1;
+  margin-left: 3cqw;
+}
+
+.cover-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+
 /* Site title: force Inter (sans-serif) so it doesn’t inherit body serif */
 main header h1 {
   font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;

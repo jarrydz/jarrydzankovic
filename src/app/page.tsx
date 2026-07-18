@@ -1,4 +1,5 @@
 import BackgroundNodes from '@/components/BackgroundNodes'
+import CoverHero from '@/components/CoverHero'
 import Portrait from '@/components/Portrait'
 import ScrollReveal from '@/components/ScrollReveal'
 
@@ -14,7 +15,8 @@ export default function Home() {
   return (
     <>
       <BackgroundNodes />
-      <main className="relative z-10 mx-auto min-h-screen max-w-[var(--column-width)] px-[clamp(1.5rem,5vw,4rem)] py-[clamp(3rem,10vw,6rem)]">
+      <CoverHero />
+      <main className="relative z-10 mx-auto max-w-[var(--column-width)] px-[clamp(1.5rem,5vw,4rem)] py-[clamp(3rem,10vw,6rem)]">
         <article className="flex flex-col gap-[clamp(2.5rem,8vw,5rem)]">
           <ScrollReveal>
             <figure className="flex flex-col items-start gap-6">
@@ -25,9 +27,9 @@ export default function Home() {
 
           <header className="space-y-4 font-title">
             <ScrollReveal delay={100}>
-              <h1 className="font-title text-3xl font-semibold tracking-tight text-[var(--color-ink)] sm:text-4xl">
+              <h2 className="font-title text-3xl font-semibold tracking-tight text-[var(--color-ink)] sm:text-4xl">
                 Jarryd Zankovic
-              </h1>
+              </h2>
             </ScrollReveal>
           </header>
 
